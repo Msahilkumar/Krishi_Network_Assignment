@@ -37,7 +37,6 @@ def index():
         lon = details['lon']
         place_name = details['place_name']
 
-        print(lat,lon,place_name)
         data = Locaitons(place=place_name,Location=f'SRID=4326;POINT({lon} {lat})')
         db.session.add(data)
         db.session.commit()

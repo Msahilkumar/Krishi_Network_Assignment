@@ -51,4 +51,11 @@ def addtweets():
     data = Posts(text=json_data['text'],user_id=json_data['user_id'],user_name=json_data['user_name'],location_name=json_data['location_name'],lang=json_data['lang'],Locatio_rect=json_data['Location_rect'])
     db.session.add(data)
     db.session.commit()
-    return make_response('Success')
+    response = make_response(
+                jsonify(
+                    {"message": 'Successfully added to the database..!'}
+                ),
+                200,
+            )
+    response.headers["Content-Type"] = "application/json"
+    return response

@@ -14,3 +14,4 @@ app.register_blueprint(weather_bp, url_prefix='/')
 app.register_blueprint(post_bp,url_prefix='/posts')
 
 
+
