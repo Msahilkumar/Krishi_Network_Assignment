@@ -1,3 +1,3 @@
-connection_string = 'postgres://avdqswgeyoyicb:3626e5fc101a8aee79387e973aaf8c10aefcc6dd47459f3661687cd7057eb8b0@ec2-34-192-210-139.compute-1.amazonaws.com:5432/d42j62h4q7otqj'
+connection_string = 'postgresql://avdqswgeyoyicb:3626e5fc101a8aee79387e973aaf8c10aefcc6dd47459f3661687cd7057eb8b0@ec2-34-192-210-139.compute-1.amazonaws.com:5432/d42j62h4q7otqj'
 appid = 'b49a8d671aa10725017ccbd67138d099'
 access_token='pk.eyJ1IjoibXNhaGlsa3VtYXIiLCJhIjoiY2wwa245dTU4MDN3ZDNicWRxOTg1NzhlZSJ9.PEqluYDUm2i6LmczHLrwAQ'
